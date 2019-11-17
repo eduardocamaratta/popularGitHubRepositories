@@ -7,8 +7,6 @@
 
 import UIKit
 
-
-
 class TableViewCellRepository: UITableViewCell {
 
     @IBOutlet weak var labelOrder: UILabel!
