@@ -16,9 +16,9 @@ A native iOS app (swift) that shows the most popular GitHub repositories
 
 ## Remarks
 
-- The original requirements requested the data to be update every second, but this is impossible because GitHub API only allows one unauthenticated request every 10 seconds.
+- The original requirements requested the data to be update every second, but this is impossible because GitHub API only allows one unauthenticated request every 6 seconds.
 - The API returns at most 30 results per page and a maximum of 1000 results.
-- So, this app requests one page every 10 seconds, and if one repository is selected, its details are updated every 10 seconds.
+- This app requests one page every 10 seconds, and if one repository is selected, its details are updated every 10 seconds.
 
 
 ## Instructions
